@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-mhpbKVUOPCSocLzx2ElRISIORFRwr1ZbO9bAlowgM5kO7hnpRBe+brVj8NNPUiFs" crossorigin="anonymous">
      <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="1060584955610-3h6vgnoqjdv5bqaqgvnca72d11fj8sso.apps.googleusercontent.com">
+  
   <style>
     body{
       background-color:#88d8b0;
@@ -49,7 +50,29 @@
 
   
   </body> 
-   <script src="script.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA5Pi0RgLOSk3nEuwqjctHW3ilxZxhzrUk",
+    authDomain: "techsupport-8d93d.firebaseapp.com",
+    databaseURL: "https://techsupport-8d93d.firebaseio.com",
+    projectId: "techsupport-8d93d",
+    storageBucket: "techsupport-8d93d.appspot.com",
+    messagingSenderId: "1060584955610",
+    appId: "1:1060584955610:web:0943275c291c6c0ceccfe3",
+    measurementId: "G-T9QYEYXKWF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //var database = firebase.database();
+</script>
+ <script src = "boss.js"</script>
 </html>
    
   

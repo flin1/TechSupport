@@ -3,17 +3,19 @@
 
   function writeUserData(userId, message) {
   firebase.database().ref('name/' + userId).set({
-    
+
     value: message
   });
-  }
+  } 
+   var userId = 0;
 function submitText(){
   console.log("haHA");
 
-  var userId = "anonymous";
+
   var message = document.getElementById("exampleTextarea").value;
   console.log(message);
 writeUserData(userId, message);
+userId++;
 }
 
 /* function onSignIn(googleUser) {
