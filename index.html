@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TechSupport</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-mhpbKVUOPCSocLzx2ElRISIORFRwr1ZbO9bAlowgM5kO7hnpRBe+brVj8NNPUiFs" crossorigin="anonymous">
+  <style>
+    body{
+      background-color:#88d8b0;
+    }
+    h1{
+      font-family: 'Raleway', sans-serif;
+      color:#ffcc5c;
+    }
+    p{
+      font-family: 'Raleway', sans-serif;
+      color:#fff;
+    }
+    #title{
+      text-align:center;
+    }
+    #holder{
+      display:inline-block;
+      margin: 200px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="title">
+      <div id = "holder">
+      <img src = "hands (1).png" onclick = "getJoke()">
+      <h1>TechSupport</h1>
+      
+      <p>Submit an anonymous message about any issue bothering you in the workplace</p>
+      <p>We understand how difficult it can be to voice problems, so this way you can report without worrying about the stress. The workplace should be a comfortable place to work, without disruption.</p>
+
+       <div class="form-group">
+   <p>Write a note:</p>
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary">Submit</button>
+       <div id = "output"></div>
+       
+      </div>
+     
+    </div>
+
+  
+  </body> 
+   <script src="script.js"></script>
+</html>
