@@ -3,6 +3,7 @@
 
   function writeUserData(userId, message) {
   firebase.database().ref('name/' + userId).set({
+    
     value: message
   });
   }
